@@ -1,10 +1,10 @@
 
 export default function SearchPage() {
   return (
-    <div>
+    <section>
 
       <input type="text" name="name" />
 
-    </div>
+    </section>
   )
 }
