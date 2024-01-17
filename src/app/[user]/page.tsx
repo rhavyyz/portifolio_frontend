@@ -11,11 +11,11 @@ export default function ProfilePage(
 {
   return (
     <main>
-      <div className='h-screen'>
+      <section className='h-screen'>
         <TopBar/>
         <Profile/>
-        <Projects/>
-      </div>
+      </section>
+      <Projects/> 
     </main>
   )
 }
