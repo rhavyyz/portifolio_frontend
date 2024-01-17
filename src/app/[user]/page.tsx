@@ -1,5 +1,6 @@
-import TopBar from  '@/app/[user]/top_bar/top_bar'
-import Profile from '@/app/[user]/profile/profile'
+import TopBar from   '@/app/[user]/top_bar/top_bar'
+import Profile from  '@/app/[user]/profile/profile'
+import Projects from '@/app/[user]/projects/projects'
 
 export default function ProfilePage(
   { params }: 
@@ -13,6 +14,7 @@ export default function ProfilePage(
       <div className='h-screen'>
         <TopBar/>
         <Profile/>
+        <Projects/>
       </div>
     </main>
   )
